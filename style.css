@@ -29,12 +29,52 @@ main {
 
 
 /* "container" */
-
-
 .measurement {
     color: var(--primary);
     font-weight: bold;
+    position: relative;
+    border-bottom: 1px dotted black;
+    display: inline-block;
 }
+.measurement:hover{
+    cursor: pointer;
+}
+/*hover text*/
+.measurement .measurementType{
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--secondary);
+    color: var(--primary);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+/* position type text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left 50%;
+    margin-left: -60px;
+/* fade in type text  */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+/* box arrow  */
+.measurement .measurementType::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--secondary) transparent transparent transparent;
+}
+/* show type text on hover */
+.measurement:hover .measurementType{
+    visibility: visible;
+    opacity: 1;
+}
+
 
 abbr:hover {
     cursor: pointer;
