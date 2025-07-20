@@ -1,4 +1,42 @@
+:root{
+    --primary: #3d5588;
+    --secondary: #9DC3B3;
+    --accent1: #F0C384;
+    --accent2: #C86F93;
+    --light: #fcfaf8;
+    --shade: #b0b6c7;
+}
+body {
+    background-color: var(--light);
+    background: linear-gradient(to bottom right, var(--light), var(--accent1));
+    background-attachment: fixed;
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+}
+
+main {
+    background: var(--light);
+    width: 75vw;
+    display: inline-block;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -15px 15px 5px -5px var(--shade);
+}
+
+
+
+/* "container" */
+
+
 .measurement {
-    /* color: blue; */
+    color: var(--primary);
     font-weight: bold;
+}
+
+abbr:hover {
+    cursor: pointer;
+    color: var(--secondary);
 }
