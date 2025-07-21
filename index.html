@@ -9,42 +9,78 @@
 <body>
     <main>
         <header><h1>Skill-It | Learn to cook!</h1></header>
-        <h2>Beef Stroganoff</h2>
-        <section>
-            <h3>Ingredients</h3>
-            <ul>
-                <li><span class="measurement">2 lb<span class="measurementType">2 pounds</span></span>  -  ground beef</li>
-                <li><span class="measurement">2 T<span class="measurementType">2 Tablespoons</span></span>  -  butter</li>
-                <li><span class="measurement">8 oz<span class="measurementType">8 ounces</span></span>  -  mushrooms</li>
-                <li><span class="measurement">1 lg<span class="measurementType">1 large</span></span>  -  onion (sliced)</li>
-                <!-- add sliced explanation above -->
-                <li><span class="measurement">1 t<span class="measurementType">1 teaspoon</span></span>  -  paprika</li>
-                <li><span class="measurement">1 T<span class="measurementType">1 Tablespoon</span></span>  -  ranch dressing seasoning (<em>optional</em>)</li>
-                <li><span class="measurement">1 T<span class="measurementType">1 Tablespoon</span></span>  -  dijon mustard</li>
-                <li><span class="measurement">2 cloves</span></span>  -  garlic (minced)</li>
-                <!-- add minced explanation above -->
-                <li><span class="measurement">1/4 c<span class="measurementType">1/4 cup</span></span>  -  flour</li>
-                <li><span class="measurement">3 c<span class="measurementType">3 cups</span></span>  -  beef broth</li>
-                <li><span class="measurement">2 t<span class="measurementType">2 teaspoons</span></span>  -  worcestershire sauce</li>
-                <li><span class="measurement">1/2 c<span class="measurementType">1/2 cup</span></span>  -  sour cream</li>                
-                <li><span class="measurement">1 bag (12 oz)<span class="measurementType">12 ounces</span></span>  -  egg noodles</li>               
-            </ul><class="measurement">
-        </section>
-        <section>
-            <h3>Cooking Instructions</h3>
-            <ol>
-                <li>Cook beef until cooked through. Remove from pan and <span class="discardGrease">discard grease</span>.</li>
-                <li>In large pot, boil water and prepare noodles to package directions, cooking slightly less than al dente.</li>
-                <li>In same pan over medium-high heat, melt butter.</li>
-                <li>Sautee mushrooms, garlic, and onion to desired doneness.</li>
-                <li>Sprinkle flour over sauteed vegetables and stir, cooking, ~1 minute.</li>
-                <li>Turn heat to low and slowly whisk in broth, stirring out any clumps before adding more.</li>
-                <li>Simmer until sauce reaches desired thickness.</li>
-                <li>Once thickened, stir in remaining ingredients (except noodles).</li>
-                <li>Simmer about 5 minutes.</li>
-                <li>Serve over noodles (or mix the noodles in!)</li>
-                <li>Enjoy!</li>
-            </ol>
+        <article>
+            <section class="contentGroup">
+                <h2>Beef Stroganoff</h2>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li><span class="measurement">2 lb<span class="measurementType">2 pounds</span></span>  -  ground beef</li>
+                    <li><span class="measurement">2 T<span class="measurementType">2 Tablespoons</span></span>  -  butter</li>
+                    <li><span class="measurement">8 oz<span class="measurementType">8 ounces</span></span>  -  mushrooms</li>
+                    <li><span class="measurement">1 lg<span class="measurementType">1 large</span></span>  -  onion (sliced)</li>
+                    <!-- add sliced explanation above -->
+                    <li><span class="measurement">1 t<span class="measurementType">1 teaspoon</span></span>  -  paprika</li>
+                    <li><span class="measurement">1 T<span class="measurementType">1 Tablespoon</span></span>  -  ranch dressing seasoning (<em>optional</em>)</li>
+                    <li><span class="measurement">1 T<span class="measurementType">1 Tablespoon</span></span>  -  dijon mustard</li>
+                    <li><span class="measurement">2 cloves</span></span>  -  garlic (minced)</li>
+                    <!-- add minced explanation above -->
+                    <li><span class="measurement">1/4 c<span class="measurementType">1/4 cup</span></span>  -  flour</li>
+                    <li><span class="measurement">3 c<span class="measurementType">3 cups</span></span>  -  beef broth</li>
+                    <li><span class="measurement">2 t<span class="measurementType">2 teaspoons</span></span>  -  worcestershire sauce</li>
+                    <li><span class="measurement">1/2 c<span class="measurementType">1/2 cup</span></span>  -  sour cream</li>                
+                    <li><span class="measurement">1 bag (12 oz)<span class="measurementType">12 ounces</span></span>  -  egg noodles</li>               
+                </ul><class="measurement">
+                    <section>
+                        <h3>Cooking Instructions</h3>
+                        <ol>
+                            <li>Cook beef until cooked through. Remove from pan and <span class="discardGrease">discard grease</span>.</li>
+                            <li>In large pot, boil water and prepare noodles to package directions, cooking slightly less than al dente.</li>
+                            <li>In same pan over medium-high heat, melt butter.</li>
+                            <li>Sautee mushrooms, garlic, and onion to desired doneness.</li>
+                            <li>Sprinkle flour over sauteed vegetables and stir, cooking, ~1 minute.</li>
+                            <li>Turn heat to low and slowly whisk in broth, stirring out any clumps before adding more.</li>
+                            <li>Simmer until sauce reaches desired thickness.</li>
+                            <li>Once thickened, stir in remaining ingredients (except noodles).</li>
+                            <li>Simmer about 5 minutes.</li>
+                            <li>Serve over noodles (or mix the noodles in!)</li>
+                            <li>Enjoy!</li>
+                        </ol>
+                    </section>
+                </article>
+            </section>
+        <section class="contentGroup">
+            <form action="results.html" method="GET">
+                <h3>Share your story!</h3>
+                <p>Interested in learning more? Tell us about yourself below:</p>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Share fake email here" required>
+                </div>
+                <div class="scale">
+                    On a scale from 1-4 how much do you enjoy cooking?
+                    <div>
+                        <label for="1">1</label>
+                            <input type="radio" name="1" id="1" value="1">
+                        <label for="2">2</label>
+                            <input type="radio" name="2" id="2" value="2">
+                        <label for="3">3</label>
+                            <input type="radio" name="3" id="3" value="3">
+                        <label for="4">4</label>
+                            <input type="radio" name="4" id="4" value="4">
+                    </div>
+                </div>
+                <div>
+                    <label for="favoriteMeal">What's your favorite meal to cook?</label>
+                    <textarea name="favoriteMeal" id="favoriteMeal" placeholder="Favorite meal" rows="2" cols="50"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
 </body>
