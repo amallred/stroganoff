@@ -27,7 +27,11 @@ body {
 }
 
 
-
+ul.ingredients {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 /* "container for hover info" */
 .measurement {
     color: var(--primary);
@@ -35,6 +39,10 @@ body {
     position: relative;
     border-bottom: none;
     display: inline-block;
+    background: var(--accent1);
+    margin: .2rem;
+    padding: .3rem;
+    border-radius: 5px;
 }
 .measurement:hover{
     cursor: pointer;

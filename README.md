@@ -18,6 +18,7 @@ This project is intended to learn more about basic website building best practic
 - Proper use of classes
 - Added background gradient, box shadow
 - **GOAL** Forma recipe layout better (split ingredients into two columns? Increase padding? To be determined.)
+- **GOAL**: media queries
 
 ### HTML Form
 - Inserted a form and created a receiving page (results.html) using the example provided in [this video](https://www.youtube.com/watch?v=fNcJuPIZ2WE&t=223s)
