@@ -17,8 +17,10 @@ This project is intended to learn more about basic website building best practic
 - Applying style to web page
 - Proper use of classes
 - Added background gradient, box shadow
-- **GOAL** Forma recipe layout better (split ingredients into two columns? Increase padding? To be determined.)
-- **GOAL**: media queries
+- **GOAL** Format recipe layout better 
+  - Split ingredients into two columns ✔
+  - Increase padding? 
+- **GOAL**: media queries; redesign for mobile first
 
 ### HTML Form
 - Inserted a form and created a receiving page (results.html) using the example provided in [this video](https://www.youtube.com/watch?v=fNcJuPIZ2WE&t=223s)
@@ -31,3 +33,6 @@ This project is intended to learn more about basic website building best practic
 
 ### JavaScript concepts explored
 - **GOAL**: change serving size to change measurements
+  - [tutorial](https://www.machinet.net/tutorial-eng/build-javascript-recipe-app-dynamic-ingredient-calculator)
+  - style form
+  - add disclaimer about serving size impacting cooktimes

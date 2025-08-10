@@ -13,7 +13,14 @@
             <section class="contentGroup">
                 <h2>Beef Stroganoff</h2>
                 <h3>Ingredients</h3>
-                <ul class="ingredients" data-columns="2">
+                <!-- <p class="servings"><span id="baseServings">8</span> servings</p>
+                <form id="servingForm">
+                    <label for="servings">Enter number of servings*</label>
+                    <input type="number" id="servings" step="1">
+                    <button type="submit">Submit</button>
+                </form> -->
+
+                <ul class="ingredients" id="ingredientList" data-columns="2">
                     <li><span class="measurement">2 lb<span class="measurementType">2 pounds</span></span>  -  ground beef</li>
                     <li><span class="measurement">2 T<span class="measurementType">2 Tablespoons</span></span>  -  butter</li>
                     <li><span class="measurement">8 oz<span class="measurementType">8 ounces</span></span>  -  mushrooms</li>
@@ -75,10 +82,10 @@
                 </div>
                 <div>
                     <label for="favoriteMeal">What's your favorite meal to cook?</label>
-                    <textarea name="favoriteMeal" id="favoriteMeal" placeholder="Favorite meal" rows="2" cols="50"></textarea>
+                    <textarea name="favoriteMeal" id="favoriteMeal" placeholder="Favorite meal" rows="2" cols="40"></textarea>
                 </div>
                 <div>
-                    <button type="submit">Submit</button>
+                    <button type="submit" class="submit">Submit</button>
                 </div>
             </form>
         </section>

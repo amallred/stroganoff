@@ -16,9 +16,13 @@ body {
     font-family: Georgia;
 }
 
+/* *****************
+Redesigning for mobile first  
+  ***************** */
+
 .contentGroup {
     background: var(--light);
-    width: 75vw;
+    width: 70vw;
     display: inline-block;
     margin: 10px;
     padding: 10px 30px;
@@ -26,12 +30,6 @@ body {
     box-shadow: -15px 15px 5px -5px var(--shade);
 }
 
-
-ul.ingredients {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-}
 /* "container for hover info" */
 .measurement {
     color: var(--primary);
@@ -46,6 +44,9 @@ ul.ingredients {
 }
 .measurement:hover{
     cursor: pointer;
+}
+.measurement:active{
+    background: var(--secondary);
 }
 /*hover text*/
 .measurement .measurementType{
@@ -87,6 +88,7 @@ abbr:hover {
     color: var(--secondary);
 }
 
+/* form styling */
 form div label{
     display: inline-block;
     margin: 1em .75em;
@@ -94,3 +96,34 @@ form div label{
  .scale {
     display: inline-block;
  }
+button.submit {
+    background: var(--primary);
+    color: var(--light);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+button.submit:active{
+    background: var(--secondary);
+}
+
+/* *****************
+Redesigning for mobile first  
+  ***************** */
+
+
+
+
+/* Add this back for larger screens
+
+ul.ingredients {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+button.submit:hover{
+    cursor: pointer;
+}
+
+
+
